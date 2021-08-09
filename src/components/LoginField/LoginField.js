@@ -93,7 +93,7 @@ function LoginField({onLogin, setLoading}){
           onChange={(e) => setPassword(e.target.value)}
         />
         <button onClick={joinRoom}>
-           Получить токен
+           Войти
         </button>
       </div>
   );

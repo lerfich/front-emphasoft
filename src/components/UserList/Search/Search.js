@@ -26,11 +26,11 @@ function Search({onSearch}) {
       <input className="form-control rounded" aria-label="Search"
       aria-describedby="search-addon"
       type="text"
-      placeholder="Искать пользователя..."
+      placeholder="Искать пользователя"
       value={partName}
       onChange={(e) => setPart(e.target.value)}/>
       <span className="input-group-text border-0" id="search-addon">
-      <button onClick={() => onSearch(partName)}> <i className="bi bi-search"/> </button>
+      <button className="bi bi-search" onClick={() => onSearch(partName)}>  </button>
       </span>
     </div>
   );
