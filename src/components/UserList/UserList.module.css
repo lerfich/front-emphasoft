@@ -1,0 +1,17 @@
+.box {
+  display: flex;
+  height: 600px;
+  border: 1px solid rgba(159, 183, 197, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.userList{
+  border-right: 1px solid rgba(159, 183, 197, 0.1);
+  padding: 20px;
+  background-color: #f6f9fa;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: auto;
+  width: 20%;
+}
