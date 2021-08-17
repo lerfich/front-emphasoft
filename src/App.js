@@ -44,7 +44,7 @@ function App() {
     script.setAttribute('data-userpic', true);
     script.setAttribute('data-onauth', 'TelegramLoginWidget.callbackOnAuth(user)');
     script.async = true;
-    document.body.appendChild(script);
+    document.body.div.appendChild(script);
     // this.instance.appendChild(script);
   });
 
