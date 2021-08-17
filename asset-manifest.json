@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/front-emphasoft/static/css/main.f3faecb4.chunk.css",
-    "main.js": "/front-emphasoft/static/js/main.d25bea65.chunk.js",
-    "main.js.map": "/front-emphasoft/static/js/main.d25bea65.chunk.js.map",
+    "main.js": "/front-emphasoft/static/js/main.e3775b38.chunk.js",
+    "main.js.map": "/front-emphasoft/static/js/main.e3775b38.chunk.js.map",
     "runtime-main.js": "/front-emphasoft/static/js/runtime-main.85ed7b17.js",
     "runtime-main.js.map": "/front-emphasoft/static/js/runtime-main.85ed7b17.js.map",
     "static/js/2.cc287b48.chunk.js": "/front-emphasoft/static/js/2.cc287b48.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.85ed7b17.js",
     "static/js/2.cc287b48.chunk.js",
     "static/css/main.f3faecb4.chunk.css",
-    "static/js/main.d25bea65.chunk.js"
+    "static/js/main.e3775b38.chunk.js"
   ]
 }
