@@ -6,6 +6,7 @@ import ShowUsers from './ShowUsers/ShowUsers.js'
 import SwitchSorter from './SwitchSorter/SwitchSorter.js'
 import Filters from './Filters/Filters.js'
 import Search from './Search/Search.js'
+import { useEffect, useRef } from 'react';
 
 
 function UserList({ users, username, loading}) {
