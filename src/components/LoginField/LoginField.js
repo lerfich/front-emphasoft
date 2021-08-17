@@ -30,7 +30,7 @@ function LoginField({onLogin, setLoading}){
         setContent('Введите пароль')
         setModal(true);
         return;
-    }else if(username !== 'test_super' | password !== 'Nf<U4f<rDbtDxAPn') {
+    }else if(username !== 'a' | password !== 'a') {
       setContent('Вы ввели неверный логин или пароль')
       setModal(true);
       return;

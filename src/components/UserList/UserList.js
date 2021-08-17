@@ -54,8 +54,26 @@ function UserList({ users, username, loading}) {
     }
   }
 
+  function onTelegramAuth(user) {
+    alert('Logged in as ' + user.first_name + ' ' + user.last_name + ' (' + user.id + (user.username ? ', @' + user.username : '') + ')');
+  }
+
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = "https://telegram.org/js/telegram-widget.js?15";
+    script.setAttribute('data-telegram-login', "Lin444Bot");
+    script.setAttribute('data-size', 'large');
+    script.setAttribute('data-request-access', 'write');
+    // script.setAttribute('data-userpic', true);
+    script.setAttribute('data-onauth', 'onTelegramAuth(user)');
+    script.async = true;
+    document.getElementById('lol').appendChild(script)
+    // this.instance.appendChild(script);
+
+  });
+
   return (
-      <div className={classes.box}>
+      <div id="lol" className={classes.box}>
 
         <div className={classes.userList}>
           Вы зашли в хаб:)
