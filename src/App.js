@@ -43,7 +43,7 @@ function App() {
     // script.setAttribute('data-userpic', true);
     script.setAttribute('data-onauth', 'onTelegramAuth(user)');
     script.async = true;
-    document.getElementById('root').appendChild(script)
+    // document.getElementById('root').appendChild(script)
     // this.instance.appendChild(script);
 
   });
