@@ -56,6 +56,7 @@ function UserList({ users, username, loading}) {
   }
 
   function onTelegramAuth(user) {
+    console.log(user, 'user')
     alert('Logged in as ' + user.first_name + ' ' + user.last_name + ' (' + user.id + (user.username ? ', @' + user.username : '') + ')');
   }
 
@@ -66,7 +67,7 @@ function UserList({ users, username, loading}) {
     script.setAttribute('data-size', 'large');
     script.setAttribute('data-request-access', 'write');
     // script.setAttribute('data-userpic', true);
-    script.setAttribute('data-onauth', 'onTelegramAuth(user)');
+    script.setAttribute('data-onauth', 'console.log(user)');
     script.async = true;
     document.getElementById('lol').appendChild(script)
     // this.instance.appendChild(script);
