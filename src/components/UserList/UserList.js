@@ -67,11 +67,10 @@ function UserList({ users, username, loading}) {
     script.setAttribute('data-size', 'large');
     script.setAttribute('data-request-access', 'write');
     // script.setAttribute('data-userpic', true);
-    script.setAttribute('data-onauth', console.log(user, 'lmao'));
+    script.setAttribute('data-onauth', 'console.log(user, "lmao")');
     script.async = true;
     document.getElementById('lol').appendChild(script)
     // this.instance.appendChild(script);
-
   });
 
   return (

@@ -23,6 +23,7 @@ function App() {
 
 //функция выполняется при успешном заходе в комнату
   const onLogin = async (obj) => {
+    console.log(obj, 'obj')
     dispatch({
           type: 'JOINED',
           payload: obj,
