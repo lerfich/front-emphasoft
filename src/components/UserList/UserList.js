@@ -61,7 +61,7 @@ function UserList({ users, username, loading}) {
   }
 
   window.TelegramLoginWidget = {
-      dataOnauth: (user) => {console.log('user-fucker', user)},
+      dataOnauth: (user) => {console.log('user-fucker', user); alert('xd?')},
     };
 
   useEffect(() => {
