@@ -7,7 +7,7 @@ export const saveAuthToken =  async (a) => {
     "password": "Nf<U4f<rDbtDxAPn"
   }
 
-  console.log('lma')
+  console.log('lmaaaa')
 
   const result = await axios.post('http://emphasoft-test-assignment.herokuapp.com/api-token-auth/', loginData)
   window.localStorage.setItem('token', result.data.token);
